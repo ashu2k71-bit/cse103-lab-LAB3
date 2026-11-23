@@ -22,8 +22,13 @@ Markdown documentation, and REST API interaction.
 | README.md | Project overview and instructions |
 | MARKDOWN_GUIDE.md | Markdown syntax reference and examples |
 | CHANGELOG.md | Version history |
-| main.py | Primary Python script |
+| src/main.py | Primary Python script |
+| tests/test_main.py | Placeholder for future unit tests |
+| docs/setup.md | Setup and running instructions |
+| requirements.txt | Python dependency notes |
 | .gitignore | Files excluded from Git tracking |
+
+For a more detailed walkthrough, see [the setup guide](docs/setup.md).
 
 ## Skills Demonstrated
 
@@ -48,7 +53,7 @@ Markdown documentation, and REST API interaction.
 ```bash
 git clone https://github.com/ashu2k71-bit/cse103-lab-LAB3.git
 cd cse103-lab-LAB3
-python3 main.py
+python3 src/main.py
 ```
 
 ## Markdown Documentation
